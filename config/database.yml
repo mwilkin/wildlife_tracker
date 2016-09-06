@@ -82,4 +82,4 @@ production:
   <<: *default
   database: wildlife_tracker_production
   username: wildlife_tracker
-  password: <%= ENV['WILDLIFE_TRACKER_DATABASE_PASSWORD'] %>
+  password: <%= ENV['password'] %>
